@@ -3,7 +3,7 @@
     padding: 0;
 }
 body{
-    background-color:black;
+    background-color:rgb(158, 114, 154);
 }
 #second{
     width: 98%;
@@ -21,15 +21,29 @@ h1{
     text-align: center;
     color: #800080;
     font-size: 5rem;
+      text-shadow:
+    1px 1px 0 #999,
+    2px 2px 0 #888,
+    3px 3px 0 #777,
+    4px 4px 0 #666;
 }
 .intro{
     margin-left: 8rem;
     margin-right: 8rem;
     background-color: #fce0fc;
+     border: 28px solid transparent;
+    border-image: url("image3.jpeg") 30 round;
+      font-family: "Bungee", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 .collegelife{
+    margin-top: 3rem;
     display: flex;
     justify-content: center;
+    border: 28px solid transparent;
+    border-image: url("image2.png") 30 round;
+    background-color: palevioletred;
 }
 p{
     padding: 1rem;
@@ -40,9 +54,16 @@ p{
 #para{
     font-size: 1.4rem;
     color: rgb(175, 172, 172);
+    font-style: italic;
+    
 }
 #first{
-    background-color: rgba(27, 26, 26, 0.74);
+    background-color: rgb(139, 139, 245);
     height: 20rem;
+    margin-top: 2rem;
     display: flex;
+    border: 28px solid transparent;
+    border-image: url("image\ copy.png") 30 round;
+    font-family: "AmstelvarAlpha";
+     font-style: oblique;
 }
