@@ -10,7 +10,7 @@
 }
 
 .main{
-        margin: 0.4rem 15rem 1rem 15rem; 
+        margin: 0.4rem 15rem 0.5rem 15rem; 
        background-color: rgb(213, 219, 224);
 }
 h1{
@@ -20,6 +20,62 @@ h1{
   font-style: normal;
   border: 1rem transparent solid;
   border-image: url(gate.jpeg) 30 round;
-   color: rgb(32, 20, 6);
+   color: rgb(71, 47, 19);
    margin:0 0 3rem 0 ;
+}
+h2{
+         font-family: "Anton", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 2rem;
+  margin:  1rem;
+  color: rgb(50, 12, 85);
+}
+#con{
+    font-family: "Anton", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.2rem;
+  margin: 1rem;
+  color: rgb(98, 30, 161);
+}
+#ima{
+        width: 50%;
+        height: 25%;
+        margin: 1rem;
+}
+#two{
+          font-family: "Alumni Sans", sans-serif;
+  font-optical-sizing: auto;
+ font-size: 20px;
+  font-style: normal;
+  color: rgb(101, 28, 170);
+}
+#headi2{
+        font-family: "Press Start 2P", system-ui;
+  font-weight: 400;
+  font-style: normal;
+    font-size: 3rem;
+    margin: 2rem;
+    color: rgb(93, 159, 185);
+}
+#for{
+        display: flex;
+         font-family: "Alumni Sans", sans-serif;
+  font-optical-sizing: auto;
+ font-size: 20px;
+  font-style: normal;
+  color: rgb(7, 75, 102);
+}
+li{
+         font-family: "Smooch Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-size: 1.5rem;
+  color: rgb(64, 95, 18);
+}
+#footers{
+        width: 100%;
+        height: 3rem;
+        background-color: gray;
 }
