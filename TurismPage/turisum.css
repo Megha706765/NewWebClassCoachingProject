@@ -1,15 +1,22 @@
 body{
-    background-color: #474343;
+    background-color: #300661;
 }
 
 h1{
     align-items: center;
     justify-content: center;
-    color: #35f8f8;
+    color: #397a54;
     display: flex;
+    text-shadow: 
+    1px 1px 0 white,
+    1.5px 1.5px 0 white,
+    2px 2px 0 white,
+    2.5px 2.5px 0 white;
 }
 p{
-    color: #f0ffff;
+    color: #47eeee;
+    font-style: oblique;
+    font-size: x-large;
 }
 
 #two{
@@ -17,12 +24,11 @@ p{
     justify-content: center;
     color: #ece92b;
     display: flex; 
-}
-
-#imagetwo{
-     align-items: center;
-    justify-content: center;
-    display: flex;
+    text-shadow: 
+    1px 1px 0 rgb(90, 88, 88),
+    1.5px 1.5px 0 rgb(129, 126, 126),
+    2px 2px 0 rgb(112, 107, 107),
+    2.5px 2.5px 0 rgb(116, 111, 111);
 }
  img{
     width: 300px;
@@ -31,16 +37,14 @@ p{
     border-radius: 7px;
 }
 #one{
-    width: 170px;
-    height: 25px;
-    margin: 3px 75px; 
-    color: #424444;
-    background-color: darkgray;
+    margin: 3px 3px; 
 }
 #two2{
-    width: 170px;
-    height: 25px;
-    margin: 3px 135px; 
-    color: #424444;
-    background-color: darkgray;
+    margin: 3.5px 3rem; 
+}
+#three{
+    margin: 3px 10rem;
+}
+#for{
+     margin: 3px 30rem;
 }

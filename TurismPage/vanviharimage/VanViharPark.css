@@ -1,0 +1,57 @@
+*{
+     margin: 0;
+     padding: 0;
+     background-color: rgb(29, 151, 231);
+}
+#top {
+        width: 100%;
+        height: 50vh;
+}
+h1{
+    font-size: 4rem;
+    margin: 1rem;
+    font-style: italic;
+    text-align: center;
+    color: rgb(234, 238, 234);
+    
+ 
+}
+#one{
+    width: 800px;
+    height: 200px;
+}
+p{
+    font-size: 1.5rem;
+    text-align: center;
+    margin: 2px 20px 2px 20px;
+    font-style: oblique;
+       margin-bottom: 3rem;
+       color: rgb(36, 21, 4);
+}
+h2{
+    font-size: 2rem;
+    margin: 2rem;
+    font-style: italic;
+    text-align: center;
+    color: rgb(207, 209, 207);
+}
+
+#vid{
+    margin: 2rem 5rem 1rem 5rem;
+    border: 4px rgb(42, 98, 121) solid ;
+}
+#footimg{
+    background-image: url(lack2.jpg);
+}
+#foot{
+   width: 80vh;
+   height: 40%;
+   margin-left: 24rem;
+   border-left: 2rem rgb(128, 92, 67) solid;
+   border-right: 2rem rgb(128, 92, 67) solid;
+}
+#footers{
+    width: 100%;
+    height: 3rem;
+    background-color: gray;
+}
